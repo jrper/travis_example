@@ -6,3 +6,6 @@ def two():
 
 def three():
     return 3
+
+def four():
+    return 4
