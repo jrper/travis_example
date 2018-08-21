@@ -5,7 +5,7 @@ def two():
     return 2
 
 def three():
-    return 3
+    return 2
 
 def four():
     return 4
