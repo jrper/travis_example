@@ -1,3 +1,6 @@
+import numpy as np
+import pylab as p
+
 def one():
     return 1
 
