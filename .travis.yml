@@ -10,5 +10,5 @@ python:
 install:
   - pip install -r requirements.txt
 #  - pip install .
-# command to run tests
-script: pytest test.py
+# command to run tests on script and regression tests on notebook
+script: pytest test.py && pytest --nbval test.ipynb
